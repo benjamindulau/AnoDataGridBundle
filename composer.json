@@ -1,0 +1,22 @@
+{
+    "name":         "ano/data-grid-bundle",
+    "description":  "Data grid bundle for ano/data-grid",
+    "keywords":     ["datagrid"],
+    "type":         "symfony-bundle",
+    "license":      "MIT",
+    "authors": [
+        {
+            "name":     "Benjamin Dulau",
+            "email":    "benjamin.dulau@anonymation.com",
+            "homepage": "http://www.anonymation.com"
+        }
+    ],
+    "require": {
+        "ano/data-grid": "dev-master",
+        "symfony/framework-bundle": "2.0.*"
+    },
+    "autoload": {
+        "psr-0": { "Ano\\Bundle\\DataGridBundle": "" }
+    },
+    "target-dir": "Ano/Bundle/DataGridBundle"
+}
