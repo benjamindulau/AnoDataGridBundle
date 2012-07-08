@@ -12,6 +12,10 @@
         }
     ],
     "require": {
+        "ano/data-grid": "*",
+        "symfony/framework-bundle": "2.0.*"
+    },
+    "require-dev": {
         "ano/data-grid": "dev-master",
         "symfony/framework-bundle": "2.0.*"
     },
