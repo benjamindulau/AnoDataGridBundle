@@ -5,6 +5,9 @@
 
 ## Usage
 
+
+### Building the grid
+
 ```PHP
 class DashboardController extends AdminController
 {
@@ -54,4 +57,16 @@ class DashboardController extends AdminController
         return $this->get('ano_data_grid.data_grid.factory');
     }
 }
+```
+
+### Rendering the grid
+
+```Twig
+{% data_grid_theme grid 'MyAdminBundle::grid_theme.html.twig' %}
+
+<table class="datagrid">
+    {{ grid_head(grid) }}
+    {{ grid_body(grid) }}
+    {{ grid_foot(grid) }}
+</table>
 ```
