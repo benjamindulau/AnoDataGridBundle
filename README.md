@@ -8,7 +8,7 @@
 
 ### Building the grid
 
-```PHP
+```php
 class DashboardController extends AdminController
 {
     public function gridAction(Request $request, $page = 1, $pageSize = 10)
@@ -61,7 +61,7 @@ class DashboardController extends AdminController
 
 ### Rendering the grid
 
-```Twig
+```twig
 {% data_grid_theme grid 'MyAdminBundle::grid_theme.html.twig' %}
 
 <table class="datagrid">
